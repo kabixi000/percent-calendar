@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  border: 5px rgb(0,255,0) solid;
+}
+
+p {
+  margin: 0;
+}
+
+.bar {
+  box-sizing: border-box;
+  height: 12vh;
+  border: 3px rgb(255,0,0) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+
+.bar p {
+  text-align: center;
+  border: 2px rgb(0,0,255) solid;
+}
+
+.barColor {
+  position: absolute;
+  left: 0;
+  width: 27%;
+  height: 100%;
+  border: 2px rgb(255, 255, 0) solid;
+}
